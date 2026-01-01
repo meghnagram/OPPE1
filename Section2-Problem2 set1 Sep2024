@@ -1,0 +1,47 @@
+n = int(input())
+for i in range(n):
+    line = input()
+    print("".join([c.upper() if c.lower() in "aeiou" else c.lower() for c in line]))
+
+# Alternative
+#n=int(input())
+#s=''
+
+#for i in range(n):
+ #   line=input()
+  #  for a in line:
+   #     if a.lower() in 'aeiou':
+    #        s +=a.upper()
+     #   else:
+      #      s +=a.lower()
+    #print(s)
+    #s=''
+
+
+#question
+#Write a program that takes a passage with n lines of text as input. For each line, convert all vowels (a, e, i, o, u) to uppercase and all other characters to lowercase.
+
+#Input Format
+
+ #   • The first line contains an integer n, the number of lines.
+
+  #  • The next n lines contain the passage.
+
+#Output Format
+
+ #   • Print the passage with vowels in uppercase and all other characters in lowercase.
+
+#Hint
+#Use the upper and lower methods of str to convert characters as needed.
+
+#Example
+
+#Input:
+
+#2
+#Hello World
+#Python Programming
+#Output:
+
+#hEllO wOrld
+#pythOn prOgrAmmIng
