@@ -1,0 +1,46 @@
+n = int(input())
+for i in range(n-1):
+    print(f"{' '*i}\\{' '*(2*(n-i)-3)}/")
+print(' '*(n-1)+'v')
+
+
+#method2
+
+#n=int(input())
+
+#pre=0
+#post=n-2 + 1 + n-2
+
+#for i in range (n-1):
+ #   print(' '*pre + '\\' +' '*post +'/')
+  #  pre +=1
+   # post = post-2
+    
+#print(' '*pre+'v')
+
+#Print Pattern - V
+#Given an integer n (where n > 0), print a "V" shaped pattern with n rows. The pattern should use backslashes (\) and forward slashes (/) for each row, with the v character at the bottom. There should be no spaces to the right of the pattern.
+#Input:
+
+#1
+#Output:
+
+#v
+#Input:
+
+#2
+#Output:
+
+#\ /
+ #v
+#Input:
+
+#3
+#Output:
+
+#\   /
+ #\ /
+  #v
+
+
+
